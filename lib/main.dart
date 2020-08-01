@@ -47,5 +47,8 @@ void main(List<String> args) async {
   print("Version $version");
   print(release.body);
 
+  for (var path in pathTo.listSync()) {
+    
+  }
   
 }
