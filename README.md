@@ -1,22 +1,9 @@
-A library for Dart developers.
-
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
-
 ## Usage
 
-A simple usage example:
-
-```dart
-import 'package:kee_upgrader/kee_upgrader.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
+It creates or replaces the KeePassRPC Plugin by the newest version on GitHub.
 
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/cedrickrusche/keepassrpc_upgrader/issues
