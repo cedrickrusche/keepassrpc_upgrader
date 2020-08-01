@@ -28,4 +28,8 @@ jobs:
       run: pub run test
       continue-on-error: true
     - name: Deploy
-      run: dart2native lib/main.dart
+      run: dart2native lib/main.dart -o bin/KeePassRPC-Updater.exe
+    - uses: actions/upload-artifact@v1
+      with:
+        name: native-executables
+        path: build
