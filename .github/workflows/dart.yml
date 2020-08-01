@@ -29,3 +29,7 @@ jobs:
       continue-on-error: true
     - name: Deploy
       run: dart2native lib/main.dart
+    - uses: actions/upload-artifact@v1
+      with:
+        name: native-executables
+        path: build
