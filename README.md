@@ -1,7 +1,7 @@
 ## Usage
 
 It creates or replaces the KeePassRPC Plugin by the newest version on GitHub.
-Only works for Windows and standard paths.
+Only works for Windows and standard paths. In most cases must be executed with privileged permissions.
 
 ## Features and bugs
 
