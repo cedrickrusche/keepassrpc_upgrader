@@ -46,4 +46,6 @@ void main(List<String> args) async {
   var version = release.tagName;
   print("Version $version");
   print(release.body);
+
+  release.
 }
