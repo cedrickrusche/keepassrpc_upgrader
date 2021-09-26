@@ -1,0 +1,28 @@
+syntax = "proto3";
+package statustafel;
+
+import "google/protobuf/timestamp.proto";
+
+
+message TowerEvent{
+
+}
+
+
+enum Status{
+
+    ELEVEN = 11;
+    TWELVE = 12;
+    THIRTEEN = 13;
+    FOURTEEN = 14;
+    FIFTEEN = 15;
+    SIXTEEN = 16;
+    SEVENTEEN = 17;
+    PERSONSEARCH = 18;
+    EMERGENCY = 19;
+    RED_YELLOW = 20;
+    YELLOW = 21;
+    RED = 22;
+
+
+}
